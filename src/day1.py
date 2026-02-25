@@ -28,6 +28,7 @@ def demo_counter():
     data = "Python is great and Python is fast python is easy to learn"
     word_counts = Counter(data.split())  #this will count the occurrences of each word in
     print(word_counts)
+    print(word_counts.items())
     #Counter({'Python': 2, 'is': 3, 'great': 1, 'and': 1, 'fast': 1, 'python': 1, 'easy': 1, 'to': 1, 'learn': 1})
     print(word_counts.most_common(2))  #this will print the 3 most common words
 
